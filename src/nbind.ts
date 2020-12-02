@@ -326,6 +326,7 @@ function initNode<ExportType extends DefaultExportType>(
 	binding.toggleLightGC = function(enable: boolean) {}; // tslint:disable-line:no-empty
 
 	Object.keys(lib).forEach(function(key: string) {
+		// @ts-ignore
 		binding.lib[key] = lib[key];
 	});
 

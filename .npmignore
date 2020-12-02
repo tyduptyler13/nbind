@@ -12,3 +12,6 @@ package-lock.json
 
 .travis.yml
 appveyor.yml
+.idea
+cmake-build*
+build

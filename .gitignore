@@ -7,4 +7,7 @@ package-lock.json
 *.tgz
 
 auto*.gypi
+.idea
+cmake-build*
+build
 
